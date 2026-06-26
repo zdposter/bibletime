@@ -59,32 +59,32 @@ ENDBLOCK()
 SET(BUILD_BIBLETIME "ON" CACHE BOOL
     "Whether to build and install the BibleTime application")
 
-SET(BUILD_TEXT_TO_SPEECH "ON" CACHE BOOL
+SET(BUILD_TEXT_TO_SPEECH "OFF" CACHE BOOL
     "Whether to build BibleTime with text-to-speech (TTS) support. \
 This requires Qt's TextToSpeech module.")
 
-SET(BUILD_HANDBOOK_HTML "ON" CACHE BOOL
+SET(BUILD_HANDBOOK_HTML "OFF" CACHE BOOL
     "Whether to build and install the handbook in HTML format")
 SET(BUILD_HANDBOOK_HTML_LANGUAGES "" CACHE STRING
     "A semicolon-separated list of language codes for which to build and
 install the handbook in HTML format if BUILD_HANDBOOK_HTML is enabled. \
 Leave empty use all supported languages.")
 
-SET(BUILD_HANDBOOK_PDF "ON" CACHE BOOL
+SET(BUILD_HANDBOOK_PDF "OFF" CACHE BOOL
     "Whether to build and install the handbook in PDF")
 SET(BUILD_HANDBOOK_PDF_LANGUAGES "" CACHE STRING
     "A semicolon-separated list of language codes for which to build and \
 install the handbook in PDF format if BUILD_HANDBOOK_PDF is enabled. \
 Leave empty use all supported languages.")
 
-SET(BUILD_HOWTO_HTML "ON" CACHE BOOL
+SET(BUILD_HOWTO_HTML "OFF" CACHE BOOL
     "Whether to build and install the howto in HTML format")
 SET(BUILD_HOWTO_HTML_LANGUAGES "" CACHE STRING
     "A semicolon-separated list of language codes for which to build and \
 install the howto in HTML format if BUILD_HOWTO_HTML is enabled. \
 Leave empty use all supported languages.")
 
-SET(BUILD_HOWTO_PDF "ON" CACHE BOOL
+SET(BUILD_HOWTO_PDF "OFF" CACHE BOOL
     "Whether to build and install the howto in PDF format")
 SET(BUILD_HOWTO_PDF_LANGUAGES "" CACHE STRING
     "A semicolon-separated list of language codes for which to build and \
